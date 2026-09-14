@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Tela de alerta de queda. O mesmo layout e usado pela Activity em tela cheia
+  e pela janela flutuante (OverlayAlertaQueda), por isso a raiz ocupa tudo.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/telaAlerta"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_alerta"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp">
+
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:contentDescription="@string/fall_dialog_title"
+        android:src="@drawable/ic_warning" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/fall_dialog_title"
+        android:textColor="@color/branco"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/fall_dialog_message"
+        android:textColor="@color/branco"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/fall_dialog_countdown_label"
+        android:textColor="@color/branco"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtContagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fall_dialog_start_seconds"
+        android:textColor="@color/branco"
+        android:textSize="88sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/barraContagem"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_marginTop="8dp"
+        android:max="15"
+        android:progress="15"
+        android:progressTint="@color/branco" />
+
+    <Button
+        android:id="@+id/btnEstouBem"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/fundo_botao_branco"
+        android:text="@string/fall_dialog_cancel_button"
+        android:textAllCaps="false"
+        android:textColor="@color/vermelho"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnEnviarAgora"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/transparent"
+        android:text="@string/fall_dialog_send_now"
+        android:textAllCaps="false"
+        android:textColor="@color/branco"
+        android:textSize="16sp" />
+</LinearLayout>

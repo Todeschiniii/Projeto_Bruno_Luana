@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema base do app. Usa somente AppCompat: o projeto nao depende do Material. -->
+    <style name="Theme.Projeto_Bruno_Luana" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/laranja</item>
+        <item name="colorPrimaryDark">@color/laranja_escuro</item>
+        <item name="colorAccent">@color/laranja</item>
+        <item name="android:windowBackground">@color/fundo_tela</item>
+        <item name="android:statusBarColor">@color/laranja_escuro</item>
+    </style>
+
+    <!-- Tela de alerta de queda: ocupa o celular inteiro, sem barra de titulo. -->
+    <style name="Theme.App.Alerta" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/vermelho</item>
+        <item name="android:statusBarColor">@color/vermelho</item>
+        <item name="android:navigationBarColor">@color/laranja_escuro</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

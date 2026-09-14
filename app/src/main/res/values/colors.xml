@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="preto">#FF000000</color>
+    <color name="branco">#FFFFFFFF</color>
+
+    <!-- Paleta laranja - marca do app -->
+    <color name="laranja_claro">#FFF4E9</color>
+    <color name="laranja_suave">#FFE1C2</color>
+    <color name="laranja">#FF6D00</color>
+    <color name="laranja_escuro">#E65100</color>
+    <color name="laranja_valor">#FF9800</color>
+
+    <!-- Superficies -->
+    <color name="fundo_tela">#FFFAF6</color>
+    <color name="fundo_cartao">#FFFFFFFF</color>
+    <color name="borda">#E8D6C4</color>
+    <color name="texto_principal">#241A10</color>
+    <color name="texto_secundario">#7C6A58</color>
+
+    <!-- Caixa de leitura em tempo real (Parte 5) -->
+    <color name="preto_profundo">#121212</color>
+    <color name="cinza_claro">#C9C9C9</color>
+
+    <!-- Estados -->
+    <color name="verde">#2E9E4F</color>
+    <color name="verde_fundo">#DEF5E2</color>
+    <color name="vermelho">#E5453A</color>
+    <color name="vermelho_fundo">#FFDBD6</color>
+    <color name="ambar">#C77700</color>
+    <color name="ambar_fundo">#FFEAC7</color>
+</resources>

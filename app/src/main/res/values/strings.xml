@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Detector de Quedas</string>
+    <string name="valor_zero">0.00</string>
+
+    <!-- Tela de monitoramento -->
+    <string name="monitoring_title">Detector de Quedas</string>
+    <string name="monitoring_status_active">Monitorando</string>
+    <string name="monitoring_status_paused">Monitoramento pausado</string>
+    <string name="monitoring_subtitle_active">O aplicativo está observando quedas em segundo plano</string>
+    <string name="monitoring_subtitle_paused">Ative para começar a monitorar quedas</string>
+    <string name="monitoring_turn_on">Ativar monitoramento</string>
+    <string name="monitoring_turn_off">Desativar monitoramento</string>
+    <string name="monitoring_sensors_card_title">Leituras em tempo real</string>
+    <string name="monitoring_axis_x">Eixo X</string>
+    <string name="monitoring_axis_y">Eixo Y</string>
+    <string name="monitoring_axis_z">Eixo Z</string>
+    <string name="monitoring_magnitude">Aceleração resultante</string>
+    <string name="monitoring_unit_accel">m/s²</string>
+    <string name="monitoring_gyro_title">Rotação</string>
+    <string name="monitoring_gyro_default">0.00 rad/s</string>
+    <string name="monitoring_gyro_valor">%1$.2f rad/s</string>
+    <string name="monitoring_simulate_button">Simular queda (teste)</string>
+    <string name="monitoring_contacts_action">Contatos de emergência</string>
+    <string name="monitoring_contacts_button">Contatos de emergência</string>
+
+    <!-- Permissões -->
+    <string name="permissao_sobreposicao_aviso">Para o alerta aparecer mesmo com o celular em uso, autorize \"Exibir sobre outros apps\"</string>
+
+    <!-- Notificações -->
+    <string name="canal_servico">Monitoramento</string>
+    <string name="canal_alerta">Alerta de queda</string>
+    <string name="canal_alerta_descricao">Aviso em tela cheia quando uma queda é detectada</string>
+    <string name="notificacao_servico_titulo">Monitorando quedas</string>
+    <string name="notificacao_servico_texto">Os sensores estão ativos em segundo plano</string>
+    <string name="notificacao_alerta_texto">Toque para cancelar o envio do SMS de emergência</string>
+    <string name="notificacao_envio_titulo">Alerta de emergência</string>
+
+    <!-- Tela de alerta de queda -->
+    <string name="fall_dialog_title">Queda detectada!</string>
+    <string name="fall_dialog_message">Identificamos um impacto seguido de imobilidade. Se você está bem, cancele o alerta.</string>
+    <string name="fall_dialog_countdown_label">Enviando SMS de emergência em</string>
+    <string name="fall_dialog_start_seconds">15</string>
+    <string name="fall_dialog_cancel_button">Estou bem, cancelar</string>
+    <string name="fall_dialog_send_now">Enviar agora</string>
+
+    <!-- Tela de contatos de emergência -->
+    <string name="contacts_title">Contatos de emergência</string>
+    <string name="contacts_back_action">Voltar</string>
+    <string name="contacts_form_title">Novo contato</string>
+    <string name="contacts_form_subtitle">Quem deve receber o SMS quando uma queda for detectada.</string>
+    <string name="contacts_name_hint">Nome</string>
+    <string name="contacts_phone_hint">Telefone</string>
+    <string name="contacts_add_button">Adicionar contato</string>
+    <string name="contacts_import_button">Buscar na agenda do celular</string>
+    <string name="contacts_saved_title">Contatos cadastrados</string>
+    <string name="contacts_empty">Nenhum contato cadastrado ainda. Adicione pelo menos um para receber o alerta.</string>
+    <string name="contacts_delete_action">Excluir contato</string>
+    <string name="contacts_error_name">Digite o nome do contato.</string>
+    <string name="contacts_error_phone">Digite o telefone do contato.</string>
+    <string name="contacts_added">%1$s foi adicionado</string>
+    <string name="contacts_removed">%1$s foi removido</string>
+    <string name="contacts_import_ok">Contato preenchido. Confira e toque em Adicionar.</string>
+    <string name="contacts_import_error">Não foi possível ler a agenda do celular.</string>
+
+    <!-- Tela de envio de SMS -->
+    <string name="sms_title">Alerta de emergência</string>
+    <string name="sms_location_title">Localização capturada</string>
+    <string name="sms_location_waiting">Localização ainda não disponível</string>
+    <string name="sms_location_accuracy">Precisão de %1$s</string>
+    <string name="sms_location_sem_gps">O SMS será enviado sem o link do mapa</string>
+    <string name="sms_message_preview_title">Mensagem enviada</string>
+    <string name="sms_contacts_title">Contatos de emergência</string>
+    <string name="sms_status_sent">Enviado</string>
+    <string name="sms_status_sending">Enviando…</string>
+    <string name="sms_status_failed">Falhou</string>
+    <string name="sms_finish_button">Voltar ao monitoramento</string>
+    <string name="sms_no_contacts">Nenhum contato de emergência cadastrado. Cadastre um na tela de contatos.</string>
+
+    <!-- Texto do SMS e resultado do envio -->
+    <string name="sms_texto_base">Preciso de ajuda! Detectamos uma possível queda.</string>
+    <string name="sms_texto_local">Minha localização: %1$s</string>
+    <string name="sms_texto_sem_local">Localização indisponível no momento.</string>
+    <string name="envio_ok">SMS enviado para %1$d contato(s)</string>
+    <string name="envio_parcial">SMS enviado para %1$d contato(s), falha em %2$d</string>
+    <string name="envio_falhou_todos">Falha ao enviar o SMS</string>
+    <string name="envio_sem_contatos">Nenhum contato cadastrado para receber o SMS</string>
+    <string name="envio_sem_permissao">Sem permissão para enviar SMS</string>
+    <string name="envio_palavra_falha">Falha</string>
+</resources>
